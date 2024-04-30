@@ -1,6 +1,6 @@
-# Solar Panel Installation Management Application
+# Solar Management Application Demo
 
-Welcome to the repository for the Solar Panel Installation Management Application. This application is designed to facilitate the management of solar panel installations, providing different interfaces for the construction team, sales team, and users.
+## Stakeholders: Solar Panel Installation Company
 
 ## Getting Started
 
