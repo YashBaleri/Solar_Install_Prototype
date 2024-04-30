@@ -1,0 +1,27 @@
+{
+  "name": "teaam12-agileodyssey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team13-AgileOdyssey/Teaam12-AgileOdyssey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Team13-AgileOdyssey/Teaam12-AgileOdyssey/issues"
+  },
+  "homepage": "https://github.com/Team13-AgileOdyssey/Teaam12-AgileOdyssey#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.1",
+    "express-session": "^1.17.3",
+    "firebase": "^7.24.0",
+    "handlebars-helpers": "^0.10.0"
+  }
+}
