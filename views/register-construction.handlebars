@@ -1,0 +1,49 @@
+<div>
+
+    <h1>
+        Construction Registration
+    </h1>
+    <!--title-->
+    <p>
+        Enter the required data in the boxes.
+    </p>
+    <!--description--->
+
+</div>
+<!---container_1--->
+<div>
+
+    <form method="post" action="/admin/create/construction">
+        <label>Name</label>
+        <input type="text" id="name" name="name" class="form" required placeholder="Insert your name"><br>
+        <!--name--->
+        <label>Email</label>
+        <input type="email" id="email" name="email" class="form" required placeholder="Insert your email"><br>
+        <!---email-->
+        <label>Password</label>
+        <input type="text" id="password" name="password" class="form" required placeholder="Input Password"><br>
+        <!---password-->
+        <label id="gender-label">Gender</label>
+        <label>
+            <input type="radio" name="male" value="male">
+            Male
+            <input type="radio" name="female" value="female">
+            Female
+            <input type="radio" name="other" value="other">
+            Other
+        </label>
+        <br>
+        <label>Boots on the ground Team</label>
+        <select id="teams" name="teams">
+            <option value="Site Surveyors">Site Surveyors</option>
+            <option value="Construction Managers">Construction Managers</option>
+            <option value="Engineering/permitting team">Engineering/permitting team</option>
+            <option value="Closeout department">Closeout department</option>
+        </select>
+        <br><br>
+        <!---comment-->
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <!---survey-form--->
+</div>

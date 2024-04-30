@@ -1,0 +1,15 @@
+<form method="post" action="/admin/login">
+	<div class="container">
+		<h2>Admin Login Page</h2>
+		<label for="email"><b>Email</b></label>
+		<input type="email" placeholder="Enter Email" name="email" id="email" required onblur="validateEmail()">
+
+		<div id="emailError" class="error"></div>
+
+		<label for="password"><b>Password</b></label>
+		<input type="password" placeholder="Enter Password" name="password" id="password" required>
+
+		<button type="submit">Login</button>
+		<a href="/register-admin">Click here to register if you are already a admin!</a>
+	</div>
+</form>
